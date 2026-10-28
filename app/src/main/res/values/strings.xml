@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Danh bạ</string>
+
+    <!-- Login -->
+    <string name="login_title">Danh bạ</string>
+    <string name="login_username_hint">Nhập tên đăng nhập</string>
+    <string name="login_password_hint">Mật khẩu</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="login_default_account">Tài khoản mặc định: admin / 123456</string>
+    <string name="login_error_empty">Vui lòng nhập tên đăng nhập và mật khẩu</string>
+    <string name="login_error_wrong">Sai tên đăng nhập hoặc mật khẩu</string>
+    <string name="logo_description">Biểu tượng danh bạ</string>
+
+    <!-- Contact list -->
+    <string name="main_title">Danh bạ liên hệ</string>
+    <string name="main_stats">Tổng số: %1$d liên hệ • Yêu thích: %2$d</string>
+    <string name="main_empty">Chưa có liên hệ nào</string>
+    <string name="main_add_button">Thêm liên hệ</string>
+    <string name="favorite_description">Liên hệ yêu thích</string>
+
+    <!-- Add contact -->
+    <string name="add_title">Thêm liên hệ</string>
+    <string name="add_name_hint">Họ và tên</string>
+    <string name="add_phone_hint">Số điện thoại (10 số, bắt đầu bằng 0)</string>
+    <string name="add_group_label">Nhóm</string>
+    <string name="add_gender_label">Giới tính</string>
+    <string name="gender_male">Nam</string>
+    <string name="gender_female">Nữ</string>
+    <string name="gender_other">Khác</string>
+    <string name="add_favorite">Thêm vào yêu thích</string>
+    <string name="add_notes_hint">Ghi chú (không bắt buộc)</string>
+    <string name="add_save_button">Lưu liên hệ</string>
+    <string name="error_name_empty">Họ và tên không được để trống</string>
+    <string name="error_phone_invalid">Số điện thoại phải gồm đúng 10 chữ số và bắt đầu bằng 0</string>
+    <string name="error_phone_duplicate">Số điện thoại đã tồn tại trong danh bạ</string>
+    <string name="toast_added">Đã thêm liên hệ</string>
+
+    <string-array name="group_options">
+        <item>Gia đình</item>
+        <item>Bạn bè</item>
+        <item>Công việc</item>
+        <item>Khác</item>
+    </string-array>
+
+    <!-- Contact detail -->
+    <string name="detail_title">Chi tiết liên hệ</string>
+    <string name="detail_group">Nhóm: %1$s</string>
+    <string name="detail_gender">Giới tính: %1$s</string>
+    <string name="detail_notes_label">Ghi chú</string>
+    <string name="detail_notes_empty">(Không có ghi chú)</string>
+    <string name="detail_favorite">Yêu thích</string>
+    <string name="detail_call">Gọi điện</string>
+    <string name="detail_back">Quay lại</string>
+    <string name="detail_delete">Xóa liên hệ</string>
+    <string name="toast_deleted">Đã xóa liên hệ</string>
+    <string name="toast_no_dialer">Không tìm thấy ứng dụng quay số</string>
+    <string name="toast_contact_not_found">Không tìm thấy liên hệ</string>
+</resources>

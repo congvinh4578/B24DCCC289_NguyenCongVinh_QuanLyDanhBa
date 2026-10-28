@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DanhBa" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:windowBackground">@color/window_bg</item>
+    </style>
+
+    <!-- Filled blue button used across the app -->
+    <style name="Widget.DanhBa.Button" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Red button for destructive actions (Delete) -->
+    <style name="Widget.DanhBa.Button.Danger">
+        <item name="android:backgroundTint">@color/danger</item>
+    </style>
+
+    <!-- Grey button for secondary actions (Back) -->
+    <style name="Widget.DanhBa.Button.Neutral">
+        <item name="android:backgroundTint">@color/neutral</item>
+    </style>
+
+</resources>
